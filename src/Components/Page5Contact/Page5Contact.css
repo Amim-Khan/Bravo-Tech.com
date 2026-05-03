@@ -1,0 +1,998 @@
+/* Sm for mobile */
+@media (max-width:640px) {
+
+    #ContactUs {
+        transition: all 500ms ease-in-out;
+        height: 200vh;
+        background: rgb(255, 255, 255);
+        width: 100%;
+        color: rgb(0, 0, 0);
+    }
+
+    #CU {
+       
+        transition: all 500ms ease-in-out;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 20%;
+        width: 100%;
+        color: #ffffff;
+        font-size: 2.8em;
+        font-weight: 800;
+        background: #070b41;
+        background-image:
+            linear-gradient(to bottom,
+                rgba(0, 0, 0, 0) 75%,
+                /* upar normal */
+                rgb(255, 255, 255) 100%
+                /* neeche fade/dark */
+            ), linear-gradient(to top,
+                rgba(0, 0, 0, 0) 75%,
+                /* niche normal */
+                rgb(7, 7, 40) 100%
+                /* top  fade/dark */
+            );
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    #CU h1 span {
+        -webkit-text-stroke: 1px black;
+        color: rgb(0, 217, 255);
+        text-shadow: 2px 2px 5px rgb(5, 197, 255);
+    }
+
+    #GITF {
+        background: #f7f7f7;
+        width: 100%;
+        height: 70v6;
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        transition: all 500ms ease-in-out;
+
+    }
+
+    #GIT {
+        width: 100%;
+        
+       
+
+
+
+    }
+
+    #GIT h1 {
+        font-size: 2.5em;
+        font-weight: 800;
+        text-align: center;
+    }
+   #GITPTAG{
+    text-align: center;
+   }
+
+    #GIT h1 span {
+        color: rgb(23, 9, 90);
+        text-shadow: 1px 2px 10px rgb(0, 255, 247);
+    }
+
+    #PEWA {
+       
+        
+        transition: all 500ms ease-in-out;
+        display: grid;
+        padding: .5em;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1em;
+        color: #f7f7f7;
+        overflow: hidden;
+    }
+
+    #PEWA I {
+        font-size: 3em;
+    }
+
+    #PN {
+        padding: .2em;
+        display: flex;
+        align-items: center;
+        background: #051a40;
+        border-radius: .2em;
+        gap: .7em;
+        transition: all 500ms ease-in-out;
+    }
+
+    #PN:hover {
+        background: #00ffff;
+        color: black;
+    }
+
+    #EA {
+        padding: .2em;
+        display: flex;
+        align-items: center;
+        background: #051a40;
+        border-radius: .2em;
+         gap: .7em;
+        transition: all 500ms ease-in-out;
+    }
+
+    #EA:hover {
+        background: #00ffff;
+        color: black;
+    }
+
+    #WEB {
+        padding: .2em;
+        display: flex;
+        align-items: center;
+        background: #051a40;
+        border-radius: .2em;
+         gap: .7em;
+        transition: all 500ms ease-in-out;
+    }
+
+    #WEB:hover {
+        background: #00ffff;
+        color: black;
+    }
+
+    #ADD {
+        padding: .2em;
+        display: flex;
+        align-items: center;
+        background: #051a40;
+        border-radius: .2em;
+         gap: .7em;
+        transition: all 500ms ease-in-out;
+    }
+
+    #ADD:hover {
+        background: #00ffff;
+        color: black;
+    }
+
+    #PEWA h2 {
+        font-size: 1em;
+        font-weight: 800;
+    }
+
+    #GITF #F {
+
+        width: 100%;
+
+    }
+
+    #F form {
+        height: 100%;
+
+        padding: 2em;
+        display: grid;
+        gap: 1em;
+    }
+
+    #F form #NameSection {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    #F form #NameSection input {
+        width: 45%;
+        height: 2em;
+        padding: 1em;
+        border-radius: .5em;
+
+
+    }
+
+
+    #F input {
+
+        border: 1px solid gray;
+        border-radius: .5em;
+        outline-color: #00fff7;
+        transition: all 500ms ease-in-out;
+
+    }
+
+    #F input:hover {
+        box-shadow: 1px 2px 10px rgb(3, 49, 87);
+    }
+
+    #F input:nth-child(2) {
+        height: 3em;
+        padding: 1em;
+
+    }
+
+    #F textarea {
+        border: 1px solid gray;
+        border-radius: .5em;
+        outline-color: #00fff7;
+        height: 7em;
+        padding: 1em;
+        transition: all 500ms ease-in-out;
+
+
+    }
+
+    #F textarea:hover {
+        box-shadow: 1px 2px 10px rgb(255, 0, 0);
+    }
+
+    #F button:nth-child(4) {
+        background-color: rgb(12, 12, 67);
+        color: rgb(255, 255, 255);
+        
+        padding: .5em 2em;
+        border-radius: .5em;
+        font-weight: 600;
+        transition: all 500ms ease-in-out;
+    }
+
+    #F button:nth-child(4):hover {
+        color: rgb(0, 0, 0);
+        background: #00def7;
+    }
+
+    #DELIVERY {
+        transition: all 500ms ease-in-out;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        background: #0c042a;
+
+    }
+
+    #DELIVERY #image {
+
+        transition: all 500ms ease-in-out;
+        height: 60vh;
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+
+        transform: rotate(90deg);
+        overflow: hidden;
+
+
+
+
+    }
+
+    #image img {
+
+        height: 110%;
+    }
+
+
+    #DELIVERY #para {
+
+        padding: 2em;
+        height: 60vh;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: .8em;
+        color: #f7f7f7;
+    }
+
+    #DELIVERY #para h1 {
+        font-weight: 800;
+        font-size: 2em;
+    }
+
+    #DELIVERY #para h1 span {
+        color: #00ffff;
+    }
+
+    #DELIVERY #para p {
+        font-size: .9em;
+
+    }
+
+    #DELIVERY #FCW {
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        gap: .4em;
+        align-items: center;
+        justify-content: space-between;
+        transition: all 500ms ease-in-out;
+
+
+    }
+
+    #DELIVERY #FCW i {
+        color: #00fff7;
+    }
+
+    #DELIVERY #FD {
+        display: flex;
+        gap: .5em;
+    }
+
+    #DELIVERY #CP {
+        display: flex;
+        gap: .5em;
+    }
+
+    #DELIVERY #WD {
+        display: flex;
+        gap: .5em;
+    }
+
+    #DELIVERY #para button {
+
+
+        background-color: rgb(12, 12, 67);
+        color: rgb(255, 255, 255);
+        padding: 2em 2em;
+        border-radius: .5em;
+        font-weight: 600;
+        transition: all 500ms ease-in-out;
+
+    }
+
+    #DELIVERY #para button:hover {
+        color: rgb(0, 0, 0);
+        background: #00def7;
+    }
+}
+
+/* Md for Tab or M Laptop */
+@media (min-width:641px) and (max-width: 1024px) {
+
+    #ContactUs {
+        transition: all 500ms ease-in-out;
+        height: 150vh;
+        background: rgb(255, 255, 255);
+        width: 100%;
+        color: rgb(0, 0, 0);
+    }
+
+    #CU {
+        transition: all 500ms ease-in-out;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 20%;
+        width: 100%;
+        color: #ffffff;
+        font-size: 2.8em;
+        font-weight: 800;
+        background: #070b41;
+        background-image:
+            linear-gradient(to bottom,
+                rgba(0, 0, 0, 0) 75%,
+                /* upar normal */
+                rgb(255, 255, 255) 100%
+                /* neeche fade/dark */
+            ), linear-gradient(to top,
+                rgba(0, 0, 0, 0) 75%,
+                /* niche normal */
+                rgb(7, 7, 40) 100%
+                /* top  fade/dark */
+            );
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    #CU h1 span {
+        -webkit-text-stroke: 1px black;
+        color: rgb(0, 217, 255);
+        text-shadow: 2px 2px 5px rgb(5, 197, 255);
+    }
+
+    #GITF {
+        background: #f7f7f7;
+        width: 100%;
+        height: 70v6;
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        transition: all 500ms ease-in-out;
+
+    }
+
+    #GIT {
+        width: 100%;
+
+
+
+    }
+
+    #GIT h1 {
+        font-size: 2.5em;
+        font-weight: 800;
+    }
+
+    #GIT h1 span {
+        color: rgb(23, 9, 90);
+        text-shadow: 1px 2px 10px rgb(0, 255, 247);
+    }
+
+    #PEWA {
+        transition: all 500ms ease-in-out;
+        display: grid;
+        padding: .5em;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em 1em;
+        color: #f7f7f7;
+    }
+
+    #PEWA I {
+        font-size: 3em;
+    }
+
+    #PN {
+        padding: .2em;
+        display: flex;
+        align-items: center;
+        background: #051a40;
+        border-radius: .2em;
+        transition: all 500ms ease-in-out;
+    }
+
+    #PN:hover {
+        background: #00ffff;
+        color: black;
+    }
+
+    #EA {
+        padding: .2em;
+        display: flex;
+        align-items: center;
+        background: #051a40;
+        border-radius: .2em;
+        transition: all 500ms ease-in-out;
+    }
+
+    #EA:hover {
+        background: #00ffff;
+        color: black;
+    }
+
+    #WEB {
+        padding: .2em;
+        display: flex;
+        align-items: center;
+        background: #051a40;
+        border-radius: .2em;
+        transition: all 500ms ease-in-out;
+    }
+
+    #WEB:hover {
+        background: #00ffff;
+        color: black;
+    }
+
+    #ADD {
+        padding: .2em;
+        display: flex;
+        align-items: center;
+        background: #051a40;
+        border-radius: .2em;
+        transition: all 500ms ease-in-out;
+    }
+
+    #ADD:hover {
+        background: #00ffff;
+        color: black;
+    }
+
+    #PEWA h2 {
+        font-size: 1em;
+        font-weight: 800;
+    }
+
+    #GITF #F {
+
+        width: 100%;
+
+    }
+
+    #F form {
+        height: 100%;
+
+        padding: 2em;
+        display: grid;
+        gap: 1em;
+    }
+
+    #F form #NameSection {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    #F form #NameSection input {
+        width: 45%;
+        height: 2em;
+        padding: 1em;
+        border-radius: .5em;
+
+
+    }
+
+
+    #F input {
+
+        border: 1px solid gray;
+        border-radius: .5em;
+        outline-color: #00fff7;
+        transition: all 500ms ease-in-out;
+
+    }
+
+    #F input:hover {
+        box-shadow: 1px 2px 10px rgb(3, 49, 87);
+    }
+
+    #F input:nth-child(2) {
+        height: 3em;
+        padding: 1em;
+
+    }
+
+    #F textarea {
+        border: 1px solid gray;
+        border-radius: .5em;
+        outline-color: #00fff7;
+        height: 7em;
+        padding: 1em;
+        transition: all 500ms ease-in-out;
+
+
+    }
+
+    #F textarea:hover {
+        box-shadow: 1px 2px 10px rgb(255, 0, 0);
+    }
+
+    #F button:nth-child(4) {
+        background-color: rgb(12, 12, 67);
+        color: rgb(255, 255, 255);
+        width: fit-content;
+        padding: .5em 2em;
+        border-radius: .5em;
+        font-weight: 600;
+        transition: all 500ms ease-in-out;
+    }
+
+    #F button:nth-child(4):hover {
+        color: rgb(0, 0, 0);
+        background: #00def7;
+    }
+
+    #DELIVERY {
+        transition: all 500ms ease-in-out;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        background: #0c042a;
+
+    }
+
+    #DELIVERY #image {
+
+        transition: all 500ms ease-in-out;
+        height: 60vh;
+        width: 80%;
+
+        display: flex;
+        justify-content: center;
+
+        transform: rotate(90deg);
+        overflow: hidden;
+
+
+
+
+    }
+
+    #image img {
+
+        height: 110%;
+    }
+
+
+    #DELIVERY #para {
+
+        padding: 2em;
+        height: 60vh;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: .8em;
+        color: #f7f7f7;
+    }
+
+    #DELIVERY #para h1 {
+        font-weight: 800;
+        font-size: 2.5em;
+    }
+
+    #DELIVERY #para h1 span {
+        color: #00ffff;
+    }
+
+    #DELIVERY #para p {
+        font-size: .9em;
+
+    }
+
+    #DELIVERY #FCW {
+        padding: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+    }
+
+    #DELIVERY #FCW i {
+        color: #00fff7;
+    }
+
+    #DELIVERY #FD {
+        display: flex;
+        gap: .5em;
+    }
+
+    #DELIVERY #CP {
+        display: flex;
+        gap: .5em;
+    }
+
+    #DELIVERY #WD {
+        display: flex;
+        gap: .5em;
+    }
+
+    #DELIVERY #para button {
+
+
+        background-color: rgb(12, 12, 67);
+        color: rgb(255, 255, 255);
+        padding: 2em 2em;
+        border-radius: .5em;
+        font-weight: 600;
+        transition: all 500ms ease-in-out;
+
+    }
+
+    #DELIVERY #para button:hover {
+        color: rgb(0, 0, 0);
+        background: #00def7;
+    }
+}
+
+/* ≥1024px (lg) for  l Laptop */
+@media (min-width: 1025px) {
+    #ContactUs {
+
+        height: 150vh;
+        background: rgb(255, 255, 255);
+        width: 100%;
+        color: rgb(0, 0, 0);
+    }
+
+    #CU {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 20%;
+        width: 100%;
+        color: #ffffff;
+        font-size: 2.8em;
+        font-weight: 800;
+        background: #070b41;
+        background-image:
+            linear-gradient(to bottom,
+                rgba(0, 0, 0, 0) 75%,
+                /* upar normal */
+                rgb(255, 255, 255) 100%
+                /* neeche fade/dark */
+            ), linear-gradient(to top,
+                rgba(0, 0, 0, 0) 75%,
+                /* niche normal */
+                rgb(7, 7, 40) 100%
+                /* top  fade/dark */
+            );
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    #CU h1 span {
+        -webkit-text-stroke: 1px black;
+        color: rgb(0, 217, 255);
+        text-shadow: 2px 2px 5px rgb(5, 197, 255);
+    }
+
+    #GITF {
+        background: #f7f7f7;
+        width: 100%;
+        height: 70v6;
+        padding: 2em;
+        display: flex;
+    }
+
+    #GIT {
+        width: 50%;
+
+
+    }
+
+    #GIT h1 {
+        font-size: 2.5em;
+        font-weight: 800;
+    }
+
+    #GIT h1 span {
+        color: rgb(23, 9, 90);
+        text-shadow: 1px 2px 10px rgb(0, 255, 247);
+    }
+
+    #PEWA {
+
+        display: grid;
+        padding: .5em;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em 1em;
+        color: #f7f7f7;
+    }
+
+    #PEWA I {
+        font-size: 3em;
+    }
+
+    #PN {
+        padding: .2em;
+        display: flex;
+        align-items: center;
+        background: #051a40;
+        border-radius: .2em;
+        transition: all 500ms ease-in-out;
+    }
+
+    #PN:hover {
+        background: #00ffff;
+        color: black;
+    }
+
+    #EA {
+        padding: .2em;
+        display: flex;
+        align-items: center;
+        background: #051a40;
+        border-radius: .2em;
+        transition: all 500ms ease-in-out;
+    }
+
+    #EA:hover {
+        background: #00ffff;
+        color: black;
+    }
+
+    #WEB {
+        padding: .2em;
+        display: flex;
+        align-items: center;
+        background: #051a40;
+        border-radius: .2em;
+        transition: all 500ms ease-in-out;
+    }
+
+    #WEB:hover {
+        background: #00ffff;
+        color: black;
+    }
+
+    #ADD {
+        padding: .2em;
+        display: flex;
+        align-items: center;
+        background: #051a40;
+        border-radius: .2em;
+        transition: all 500ms ease-in-out;
+    }
+
+    #ADD:hover {
+        background: #00ffff;
+        color: black;
+    }
+
+    #PEWA h2 {
+        font-size: 1em;
+        font-weight: 800;
+    }
+
+    #GITF #F {
+
+        width: 50%;
+
+    }
+
+    #F form {
+        height: 100%;
+
+        padding: 2em;
+        display: grid;
+        gap: 1em;
+    }
+
+    #F form #NameSection {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    #F form #NameSection input {
+        width: 45%;
+        height: 2em;
+        padding: 1em;
+        border-radius: .5em;
+
+
+    }
+
+
+    #F input {
+
+        border: 1px solid gray;
+        border-radius: .5em;
+        outline-color: #00fff7;
+        transition: all 500ms ease-in-out;
+
+    }
+
+    #F input:hover {
+        box-shadow: 1px 2px 10px rgb(3, 49, 87);
+    }
+
+    #F input:nth-child(2) {
+        height: 3em;
+        padding: 1em;
+
+    }
+
+    #F textarea {
+        border: 1px solid gray;
+        border-radius: .5em;
+        outline-color: #00fff7;
+        height: 7em;
+        padding: 1em;
+        transition: all 500ms ease-in-out;
+
+
+    }
+
+    #F textarea:hover {
+        box-shadow: 1px 2px 10px rgb(255, 0, 0);
+    }
+
+    #F button:nth-child(4) {
+        background-color: rgb(12, 12, 67);
+        color: rgb(255, 255, 255);
+        width: fit-content;
+        padding: .5em 2em;
+        border-radius: .5em;
+        font-weight: 600;
+        transition: all 500ms ease-in-out;
+    }
+
+    #F button:nth-child(4):hover {
+        color: rgb(0, 0, 0);
+        background: #00def7;
+    }
+
+    #DELIVERY {
+
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+        background: #0c042a;
+
+    }
+
+    #DELIVERY #image {
+
+
+        height: 60vh;
+        width: 50%;
+
+    }
+
+
+
+    #DELIVERY #para {
+
+        padding: 2em;
+        height: 60vh;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: .8em;
+        color: #f7f7f7;
+    }
+
+    #DELIVERY #para h1 {
+        font-weight: 800;
+        font-size: 2.5em;
+    }
+
+    #DELIVERY #para h1 span {
+        color: #00ffff;
+    }
+
+    #DELIVERY #para p {
+        font-size: .9em;
+
+    }
+
+    #DELIVERY #FCW {
+        padding: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+    }
+
+    #DELIVERY #FCW i {
+        color: #00fff7;
+    }
+
+    #DELIVERY #FD {
+        display: flex;
+        gap: .5em;
+    }
+
+    #DELIVERY #CP {
+        display: flex;
+        gap: .5em;
+    }
+
+    #DELIVERY #WD {
+        display: flex;
+        gap: .5em;
+    }
+
+    #DELIVERY #para button {
+        width: max-content;
+
+        background-color: rgb(12, 12, 67);
+        color: rgb(255, 255, 255);
+        padding: .7em 2em;
+        border-radius: .5em;
+        font-weight: 600;
+        transition: all 500ms ease-in-out;
+
+    }
+
+    #DELIVERY #para button:hover {
+        color: rgb(0, 0, 0);
+        background: #00def7;
+    }
+}

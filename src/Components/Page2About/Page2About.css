@@ -1,0 +1,289 @@
+
+/* Sm for mobile */
+@media (max-width:640px) {
+    #Page2About{
+        padding: 1em;
+        padding-top: 3em;
+        height: 75vh;
+        background: #cdeaf4;
+        color: white;
+    }
+    #Img{
+        
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    #Img h1{
+        font-weight: 800;
+        color: black;
+        font-size: 1.7em;
+    }
+    #Img img{
+        border-radius: .4em;
+        transition: all 500ms ease-in-out;
+    }
+     #Img img:hover{
+        box-shadow: 1px 2px 10px blue;
+     }
+    #OurExpertise{
+         
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+      #OurExpertise h1{
+         font-weight: 800;
+         color: black;
+        font-size: 1.7em;
+      }
+    #E4{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 2em;
+        
+       
+        
+    }
+    
+    #E{
+        display: flex;
+        gap: .5em;
+        border-radius: .4em;
+        align-items: center;
+        justify-content: center;
+        background: #00ffff;
+        padding: .6em;
+         background: #0b154b;
+         color: white;
+         transition: all 500ms ease-in-out;
+    }
+     #E:hover{
+        background: #000;
+        color: #00ffff;
+
+     }
+    #E i{
+        font-weight: 500;
+        font-size: 2em;
+    }
+    #E h3{
+        font-weight: 500;
+        letter-spacing:.1em ;
+    }
+    #OurExpertise button{
+        border: none;
+        background: #9d3434;
+        width: max-content;
+        padding: .6em;
+        font-weight: 700;
+        border-radius: .4em;
+         background: #0b154b;
+         color: white;
+         transition: all 500ms ease-in-out;
+    }
+      #OurExpertise button:hover{
+        background: #450202;
+        color: rgb(255, 255, 255);
+      }
+}
+
+/* Md for Tab or M Laptop */
+@media (min-width:641px) and (max-width: 1024px) {
+    #Page2About{
+         border: solid;
+         padding: 0em .6em;
+        padding-top: 3.5em ;
+        width: 100%;
+        height: 50vh;
+         background: #cdeaf4;
+         color: white;
+        display: flex;
+              border: none;
+        transition: all 500ms ease-in-out;
+    }
+    #Img{ 
+        width: 50%;
+        transition: all 500ms ease-in-out;
+    }
+    #Img img{
+        height: 17em;
+        border-radius: .4em;
+        transition: all 500ms ease-in-out;
+    }
+     #Img img:hover{
+        box-shadow: 1px 5px 10px rgb(0, 0, 94);
+     }
+     #Img h1{
+        font-size: 2em;
+        font-weight: 800;
+        color: #000;
+     }
+     #OurExpertise{
+       
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+        transition: all 500ms ease-in-out;
+     }
+     #OurExpertise h1{
+        font-size: 2em;
+        font-weight: 800;
+        color: #000;
+     }
+        #E4{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 1em;
+        
+       
+        
+    }
+    
+    #E{
+        display: flex;
+        gap: .5em;
+        border-radius: .4em;
+        align-items: center;
+        justify-content: center;
+        background: #00ffff;
+        padding: .6em;
+         background: #0b154b;
+         color: white;
+         transition: all 500ms ease-in-out;
+    }
+     #E:hover{
+        background: #000;
+        color: #00ffff;
+
+     }
+    #E i{
+        font-weight: 500;
+        font-size: 2em;
+    }
+    #E h3{
+        font-weight: 500;
+        letter-spacing:.1em ;
+    }
+    #OurExpertise button{
+        border: none;
+        background: #9d3434;
+        width: max-content;
+        padding: .8em;
+        font-size: 1.3em;
+        font-weight: 700;
+        border-radius: .4em;
+         background: #0b154b;
+         color: white;
+         transition: all 500ms ease-in-out;
+    }
+      #OurExpertise button:hover{
+        background: #450202;
+        color: rgb(255, 255, 255);
+      }
+
+
+}
+
+/* ≥1024px (lg) for  l Laptop */
+@media (min-width: 1025px) {
+     #Page2About{
+         border: solid;
+         padding: 0em .6em;
+        padding-top: 3.5em ;
+        width: 100%;
+        height: 60vh;
+         background: #cdeaf4;
+         color: white;
+        display: flex;
+              border: none;
+        transition: all 500ms ease-in-out;
+    }
+    #Img{ 
+        width: 50%;
+        transition: all 500ms ease-in-out;
+    }
+    #Img img{
+        height: 16em;
+        width: 80%;
+        border-radius: .4em;
+        transition: all 500ms ease-in-out;
+    }
+     #Img img:hover{
+        box-shadow: 1px 5px 10px rgb(0, 0, 94);
+     }
+     #Img h1{
+        font-size: 2em;
+        font-weight: 800;
+        color: #000;
+     }
+     #OurExpertise{
+       
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+        transition: all 500ms ease-in-out;
+     }
+     #OurExpertise h1{
+        font-size: 2em;
+        font-weight: 800;
+        color: #000;
+     }
+        #E4{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 1em;
+        
+       
+        
+    }
+    
+    #E{
+        display: flex;
+        gap: .5em;
+        border-radius: .4em;
+        align-items: center;
+        justify-content: center;
+        background: #00ffff;
+        padding: .6em;
+         background: #0b154b;
+         color: white;
+         transition: all 500ms ease-in-out;
+    }
+     #E:hover{
+        background: #000;
+        color: #00ffff;
+
+     }
+    #E i{
+        font-weight: 500;
+        font-size: 2em;
+    }
+    #E h3{
+        font-weight: 500;
+        letter-spacing:.1em ;
+    }
+    #OurExpertise button{
+        border: none;
+        background: #9d3434;
+        width: max-content;
+        padding: .8em;
+        font-size: 1.3em;
+        font-weight: 700;
+        border-radius: .4em;
+         background: #0b154b;
+         color: white;
+         transition: all 500ms ease-in-out;
+    }
+      #OurExpertise button:hover{
+        background: #450202;
+        color: rgb(255, 255, 255);
+      }
+
+
+}

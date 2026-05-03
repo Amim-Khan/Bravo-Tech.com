@@ -1,0 +1,433 @@
+
+/* Sm for mobile */
+@media (max-width:640px) {
+    #Page3Services{
+        
+        background-image: 
+      linear-gradient(to top,rgba(0,0,0,0.5) 65%, rgba(217, 249, 255, 0.989) 90%),
+      url("https://i.pinimg.com/736x/f9/3a/ad/f93aad411795f448b23fe483a8522616.jpg");
+        height: 115vh;
+        padding: 1em;
+        padding-top: 6vh;
+        transition: all 500ms ease-in-out;
+    }
+    #OurServices{
+       
+        height: 105vh;
+        color: white;
+    }
+     #OurServices h1{
+        padding-bottom: 1em;
+        font-size: 1.8em;
+        font-weight: 800;
+        color: rgb(0, 0, 0);
+     }
+    #OS{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 1em;
+    }
+    #OS h2{
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+    #OS #H{
+        display: flex;
+        align-items: center;
+        gap: 1em;
+    }
+    #OS #H i{
+        font-size: 2em;
+    }
+    #OS p{
+        font-weight: 500;
+    }
+   
+    /* FOR RESIDENTIAL CONSTRUCTION */
+    #RC{
+       background: #0b154b;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 500ms ease-in-out;
+    }
+   
+     #RC:hover{
+        background: #000;
+        color: #00ffff;
+
+     }
+    /* FOR COMMERCIAL BUILDING*/
+    #CB{
+        border-radius: .4em;
+         background: #0b154b;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 500ms ease-in-out;
+    }
+    #CB:hover{
+        background: #000;
+        color: #00ffff;
+
+     }
+    /*FOR RENOVATION & REMIBLING */
+      
+    #RR{ border-radius: .4em;
+         background: #0b154b;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 500ms ease-in-out;
+    }
+    #RR:hover{
+        background: #000;
+        color: #00ffff;
+
+     }
+    /* FOR PROJECT MANAGEMENT */
+    #PM{
+         border-radius: .4em;
+         background: #0b154b;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 500ms ease-in-out;
+    }
+    #PM:hover{
+        background: #000;
+        color: #00ffff;
+
+     }
+    /* FOR STRUCTURAL DESIGN */
+    #SD{
+        border-radius: .4em;
+         background: #0b154b;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 500ms ease-in-out;
+    }
+    #SD:hover{
+        background: #000;
+        color: #00ffff;
+
+     }
+    /* FOR INRERIOR FINISHINF */
+    #IF{
+        border-radius: .4em;
+         background: #0b154b;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 500ms ease-in-out;
+    }
+    #IF:hover{
+        background: #000;
+        color: #00ffff;
+
+     }
+}
+
+/* Md for Tab or M Laptop */
+@media (min-width:641px) and (max-width: 1024px) {
+       #Page3Services{
+        
+        background-image: 
+      linear-gradient(to top,rgba(0,0,0,0.5) 35%, rgba(217, 249, 255, 0.989) 90%),
+      url("https://i.pinimg.com/736x/f9/3a/ad/f93aad411795f448b23fe483a8522616.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+        height: 75vh;
+        padding: 1em;
+        padding-top: 6vh;
+        transition: all 500ms ease-in-out;
+    }
+    #OurServices{
+      
+        height: 100%;
+        color: white;
+    }
+     #OurServices h1{
+        padding-bottom: 1em;
+        font-size: 1.8em;
+        font-weight: 800;
+        color: rgb(0, 0, 0);
+     }
+    #OS{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+    #OS h2{
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+    #OS #H{
+        display: flex;
+        align-items: center;
+        gap: 1em;
+    }
+    #OS #H i{
+        font-size: 2em;
+    }
+    #OS p{
+        font-weight: 500;
+    }
+   
+    /* FOR RESIDENTIAL CONSTRUCTION */
+    #RC{
+        border-radius: .4em;
+      background: #4c00fe;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 500ms ease-in-out;
+    }
+   
+     #RC:hover{
+        background: #000;
+        color: #00ffff;
+
+     }
+    /* FOR COMMERCIAL BUILDING*/
+    #CB{
+        border-radius: .4em;
+         background: #4c00fe;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 500ms ease-in-out;
+    }
+    #CB:hover{
+        background: #000;
+        color: #00ffff;
+
+     }
+    /*FOR RENOVATION & REMIBLING */
+      
+    #RR{ border-radius: .4em;
+         background: #4c00fe;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 500ms ease-in-out;
+    }
+    #RR:hover{
+        background: #000;
+        color: #00ffff;
+
+     }
+    /* FOR PROJECT MANAGEMENT */
+    #PM{
+         border-radius: .4em;
+        background: #4c00fe;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 500ms ease-in-out;
+    }
+    #PM:hover{
+        background: #000;
+        color: #00ffff;
+
+     }
+    /* FOR STRUCTURAL DESIGN */
+    #SD{
+        border-radius: .4em;
+         background: #4c00fe;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 500ms ease-in-out;
+    }
+    #SD:hover{
+        background: #000;
+        color: #00ffff;
+
+     }
+    /* FOR INRERIOR FINISHINF */
+    #IF{
+        border-radius: .4em;
+        background: #4c00fe;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 500ms ease-in-out;
+    }
+    #IF:hover{
+        background: #000;
+        color: #00ffff;
+
+     }
+}
+/* ≥1024px (lg) for  l Laptop */
+@media (min-width: 1025px) {
+        #Page3Services{
+       
+        background-image: 
+      linear-gradient(to top,rgba(0,0,0,0.5) 35%, rgba(217, 249, 255, 0.989) 90%),
+      url("https://i.pinimg.com/736x/f9/3a/ad/f93aad411795f448b23fe483a8522616.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+        height: 75vh;
+        padding: 1em;
+        padding-top: 7.5vh;
+        transition: all 500ms ease-in-out;
+    }
+    #OurServices{
+      
+        height: 100%;
+        color: white;
+    }
+     #OurServices h1{
+        padding-bottom: 1em;
+        font-size: 1.8em;
+        font-weight: 800;
+        color: rgb(0, 0, 0);
+     }
+    #OS{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+    #OS h2{
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+    #OS #H{
+        display: flex;
+        align-items: center;
+        gap: 1em;
+    }
+    #OS #H i{
+        font-size: 2em;
+    }
+    #OS p{
+        font-weight: 500;
+    }
+   
+    /* FOR RESIDENTIAL CONSTRUCTION */
+    #RC{
+        border-radius: .4em;
+      background: #4c00fe;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 500ms ease-in-out;
+    }
+   
+     #RC:hover{
+        background: #000;
+        color: #00ffff;
+
+     }
+    /* FOR COMMERCIAL BUILDING*/
+    #CB{
+        border-radius: .4em;
+         background: #4c00fe;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 500ms ease-in-out;
+    }
+    #CB:hover{
+        background: #000;
+        color: #00ffff;
+
+     }
+    /*FOR RENOVATION & REMIBLING */
+      
+    #RR{ border-radius: .4em;
+         background: #4c00fe;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 500ms ease-in-out;
+    }
+    #RR:hover{
+        background: #000;
+        color: #00ffff;
+
+     }
+    /* FOR PROJECT MANAGEMENT */
+    #PM{
+         border-radius: .4em;
+        background: #4c00fe;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 500ms ease-in-out;
+    }
+    #PM:hover{
+        background: #000;
+        color: #00ffff;
+
+     }
+    /* FOR STRUCTURAL DESIGN */
+    #SD{
+        border-radius: .4em;
+         background: #4c00fe;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 500ms ease-in-out;
+    }
+    #SD:hover{
+        background: #000;
+        color: #00ffff;
+
+     }
+    /* FOR INRERIOR FINISHINF */
+    #IF{
+        border-radius: .4em;
+        background: #4c00fe;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 500ms ease-in-out;
+    }
+    #IF:hover{
+        background: #000;
+        color: #00ffff;
+
+     }
+}
