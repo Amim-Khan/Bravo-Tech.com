@@ -1,4 +1,5 @@
 import './Navbar.css'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -17,11 +18,11 @@ const Navbar = () => {
       <div id="Dropedown">
         <button><i class="ri-list-check-2"></i></button>
       <div id="Menu">
-        <a href="#Page1Home">Home</a>
-        <a href="#Page2About">About</a>
-        <a href="#Page3Services">Service</a>
-        <a href="#Page4Project">Projects</a>
-        <a href="#ContactUs">Contact Us</a>
+       <Link to='/' >Home</Link>
+       <Link to='/About'>About Us</Link>
+       <Link to='/Services'>Services</Link>
+       <Link to='/Projects'>Projects</Link>
+       <Link to='/Contact'>Contact Us</Link>
       </div>
       </div>
     </div>
