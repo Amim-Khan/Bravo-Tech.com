@@ -75,7 +75,7 @@
 
     }
 
-    #Dropedown a {
+    #Dropedown Link {
         display: block;
         font-weight: 600;
 
@@ -87,7 +87,7 @@
         transition: all .5s;
     }
 
-    #Dropedown a:hover {
+    #Dropedown Link:hover {
         background: #ffffff;
         color: #000;
     }
