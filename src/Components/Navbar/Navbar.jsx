@@ -18,11 +18,11 @@ const Navbar = () => {
       <div id="Dropedown">
         <button><i class="ri-list-check-2"></i></button>
       <div id="Menu">
-       <Link to='/' >Home</Link>
-       <Link to='/About'>About Us</Link>
-       <Link to='/Services'>Services</Link>
-       <Link to='/Projects'>Projects</Link>
-       <Link to='/Contact'>Contact Us</Link>
+       <Link id='Link' to='/' >Home</Link>
+       <Link id='Link' to='/About'>About Us</Link>
+       <Link id='Link' to='/Services'>Services</Link>
+       <Link id='Link' to='/Projects'>Projects</Link>
+       <Link id='Link' to='/Contact'>Contact Us</Link>
       </div>
       </div>
     </div>

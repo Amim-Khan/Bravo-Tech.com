@@ -75,7 +75,7 @@
 
     }
 
-    #Dropedown Link {
+    #Dropedown #Link {
         display: block;
         font-weight: 600;
 
@@ -87,7 +87,7 @@
         transition: all .5s;
     }
 
-    #Dropedown Link:hover {
+    #Dropedown #Link:hover {
         background: #ffffff;
         color: #000;
     }
@@ -256,14 +256,14 @@
         -webkit-text-stroke: .5px #000;
     }
 
-    #Dropedown a {
+    #Dropedown Link {
         padding: 8px;
         border-radius: .7em;
         background: #190042;
         transition: all 500ms ease-in-out;
     }
 
-    #Dropedown a:hover {
+    #Dropedown Link:hover {
         background: #ffffff;
         color: #000;
     }
